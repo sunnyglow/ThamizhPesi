@@ -1,0 +1,481 @@
+package com.tamil.tts.constants;
+
+public interface TamilTTSConstants 
+{
+	String VOICE_PATH = "D:\\TamilTTSWork\\Documents\\work\\tts_voice\\AppData\\AllTTSVoiceData\\";
+	String TIME_DATA_PATH ="D:\\TamilTTSWork\\Documents\\work\\tts_voice\\AppData\\AllTTSTimeData";
+	String AUDIO_PATH = "D:\\TamilTTSWork\\Documents\\work\\tts_voice\\AppData\\AllTTSVoiceData\\";
+	//String SOUL_BODY_PATH = "C:\\Users\\Sureshkumar\\Documents\\work\\VoiceWork\\VoiceData\\NormalizedSplitSound_Audacity_exported\\";
+	//String TWO_THREE_LETTER_PATH = "C:\\Users\\Sureshkumar\\Documents\\work\\tts_voice\\SingleLetterVoiceData\\";
+	//String TWO_THREE_LETTER_AUDIO_PATH = "C:\\Users\\Sureshkumar\\Documents\\work\\tts_voice\\AllTTSVoiceData\\";
+	//String VOICE_PATH = "C:\\Users\\Sureshkumar\\Documents\\work\\VoiceWork\\AudacityRecorded\\FinalSoundSplit\\";
+	//String TIME_DATA_PATH ="C:\\Users\\Sureshkumar\\Documents\\work\\VoiceWork\\AudacityRecorded\\TimeData";
+	//String AUDIO_PATH = "C:\\Users\\Sureshkumar\\Documents\\work\\VoiceWork\\AudacityRecorded\\FinalSoundSplit\\";
+	
+	
+	
+		
+	int special_duration = 150;
+	int SHORT_SOUND= 110;
+	int LONG_SOUND =180;
+	int BODY_SOUND = 60;
+	int ai_sound = 140;
+	int O_sound = 180;
+	String O_word[] = "ஒ".split(",");
+	
+	int SOUL_SHORT = 140;
+	int SOUL_LONG = 180;
+	
+	int SOUL_BODY_SHORT = 280;
+	int SOUL_BODY_LONG = 320;
+	
+	String[] special = "ை,ி,ு,ெ,ொ".split(",");
+	
+	
+	
+	
+	
+	
+	
+	String[] ALL_WORDS = "ஃ,்,ஆ,ஈ,ஊ,ஏ,ஓ,ா,ீ,ூ,ே,ோ,ௌ,அ,இ,உ,எ,ஐ,ஔ,ை,ி,ு,ெ,ொ,ஜ்,ஜ,ஜா,ஜி,ஜீ,ஜு,ஜூ,ஜெ,ஜே,ஜை,ஜொ,ஜோ,ஜௌ,ஷ்,ஷ,ஷா,ஷி,ஷீ,ஷு,ஷூ,ஷெ,ஷே,ஷை,ஷொ,ஷோ,ஷௌ,ஸ்,ஸ,ஸா,ஸி,ஸீ,ஸு,ஸூ,ஸெ,ஸே,ஸை,ஸொ,ஸோ,ஸௌ,ஹ்,ஹ,ஹா,ஹி,ஹீ,ஹு,ஹூ,ஹெ,ஹே,ஹை,ஹொ,ஹோ,ஹௌ,க்ஷ்,க்ஷ,க்ஷா,க்ஷி,க்ஷீ,க்ஷு,க்ஷூ,க்ஷெ,க்ஷே,க்ஷை,க்ஷொ,க்ஷோ,க்ஷெள,ஸ்ரீ,அ,ஆ,இ,ஈ,உ,ஊ,எ,ஏ,ஐ,ஒ,ஓ,ஔ,க்,க,கா,கி,கீ,கு,கூ,கெ,கே,கை,கொ,கோ,கௌ,ங்,ங,ஙா,ஙி,ஙீ,ஙு,ஙூ,ஙெ,ஙே,ஙை,ஙொ,ஙோ,ஙௌ,ச்,ச,சா,சி,சீ,சு,சூ,செ,சே,சை,சொ,சோ,சௌ,ஞ்,ஞ,ஞா,ஞி,ஞீ,ஞு,ஞூ,ஞெ,ஞே,ஞை,ஞொ,ஞோ,ஞௌ,ட்,ட,டா,டி,டீ,டு,டூ,டெ,டே,டை,டொ,டோ,டௌ,ண்,ண,ணா,ணி,ணீ,ணு,ணூ,ணெ,ணே,ணை,ணொ,ணோ,ணௌ,த்,த,தா,தி,தீ,து,தூ,தெ,தே,தை,தொ,தோ,தௌ,ந்,ந,நா,நி,நீ,நு,நூ,நெ,நே,நை,நொ,நோ,நௌ,ப்,ப,பா,பி,பீ,பு,பூ,பெ,பே,பை,பொ,போ,பௌ,ம்,ம,மா,மி,மீ,மு,மூ,மெ,மே,மை,மொ,மோ,மௌ,ய்,ய,யா,யி,யீ,யு,யூ,யெ,யே,யை,யொ,யோ,யௌ,ர்,ர,ரா,ரி,ரீ,ரு,ரூ,ரெ,ரே,ரை,ரொ,ரோ,ரௌ,ல்,ல,லா,லி,லீ,லு,லூ,லெ,லே,லை,லொ,லோ,லௌ,வ்,வ,வா,வி,வீ,வு,வூ,வெ,வே,வை,வொ,வோ,வௌ,ழ்,ழ,ழா,ழி,ழீ,ழு,ழூ,ழெ,ழே,ழை,ழொ,ழோ,ழௌ,ள்,ள,ளா,ளி,ளீ,ளு,ளூ,ளெ,ளே,ளை,ளொ,ளோ,ளௌ,ற்,ற,றா,றி,றீ,று,றூ,றெ,றே,றை,றொ,றோ,றௌ,ன்,ன,னா,னி,னீ,னு,னூ,னெ,னே,னை,னொ,னோ,னௌ".split(",");
+	String[] ENGLISH_LETTERS = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z".split(",");
+	int SPACE =30;
+	int FULL_STOP = 200;
+	int SOUL_BODY_PAUSE = 0;
+	
+	long COMBINED_SHORT_SOUND= 180;
+	long COMBINED_LONG_SOUND = 230;
+	
+	String SILENT = "silent.wav";
+	String[] BODY_WORD = "்".split(",");
+	String[] SOUL_SHORT_WORDS = "அ,இ,உ,எ,ஒ,ஔ".split(",");
+	String[] SOUL_LONG_WORDS = "ஆ,ஈ,ஊ,ஏ,ஓ".split(",");
+	String[] குறில் = "அ,இ,உ,எ,ஒ,ஔ,ி,ு,ெ,ொ".split(",");
+	String[] நெடில் = "ஆ,ஈ,ஊ,ஏ,ஓ,ா,ீ,ூ,ே,ோ,ை,ௌ".split(",");
+	String[] AI_WORD = "ை,ஐ".split(",");
+	String[] ZHA_WORD = "ழ".split(",");
+	String[] NORTH_SOUND = "ஜ,ஷ,ஸ,ஹ,க்ஷ,ஸ்ரீ".split(",");
+	
+	String SOUL = "";
+	String SOUL_BODY = "";
+	String SOUL_BODY_BODY = "";
+	String SPECIAL_SOUND = "";
+	String SYMBOL = "";
+	String TWO_LETTER_WORD = "";
+	String THREE_LETTER_WORD = "";
+	String MASTER_RECORD = "/MASTER_RECORD/";
+	//String VOICE_PATH = System.getProperty("user.dir");
+	//String VOICE_PATH = "C:/Users/Sureshkumar/Google Drive/TamilTTS/VoiceData_Google/";
+	//String VOICE_PATH = "C:/Users/Sureshkumar/Documents/FadeinVoiceData";
+	//String VOICE_PATH = "C:/Users/Sureshkumar/Documents/completeVoiceData";
+	
+	//TrimmedVoicedata-10-Jun-2017
+	//TrimmedVoicedata
+	//String VOICE_PATH = "C:/Users/Sureshkumar/Documents/TrimmedVoicedata";
+	//String VOICE_PATH = "C:/Users/Sureshkumar/Google Drive/TamilTTS/TrimmedVoicedata-10-Jun-2017";
+	//String VOICE_PATH = "C:/tts_voices/TrimmedVoicedata-9-Jun-2017/";
+	//String OUTPUT_VOICE_PATH = VOICE_PATH+"/OUTPUT/";
+	String OUTPUT_VOICE_PATH = "C:\\Users\\Sureshkumar\\Documents\\work";
+	String FILTER_TYPE = "lowpass";
+	String OUTPUT_BUFFER_FILE_NAME = "/Buffer.wav"; 
+	String OUTPUT_VOICE_FILE_NAME = "\\SynthesizedVoice.wav";
+	String FINAL_OUTPUT_VOICE_FILE_NAME = "//SpeechData.wav";
+	String COMMON_WORDS = "/COMMON_WORDS/";
+	String END_WORDS = "/END_WORDS/";
+	String NUMBER_WORDS = "/NUMBER_WORDS/";
+	String NUMBER_SOUNDS[] = "புள்ளி,பூஜ்ஜியம்,ஒன்று,ஒரு,இரண்டு,இரு,மூன்று,நான்கு,ஐந்து,ஆறு,ஏழு,எட்டு,ஒன்பது,பத்து,பதின்,பதினொன்று,பதினோர்,பனிரெண்டு,பதிமூன்று,பதினான்கு,பதினைந்து,பதினாறு,பதினேழு,பதினெட்டு,பத்தொன்பது	,இருபது,இருபத்து,முப்பது,முப்பத்து,நாற்பது,நாற்பத்து,ஐம்பது,ஐம்பத்து,அறுபது,அறுபத்து,எழுபது,எழுபத்து,என்பது,எண்பத்து,தொன்னூறு,தொன்னுற்று,நூறு,நூற்று,இருநூறு,இருநூற்று,முன்னூறு,முன்நூற்று,நானூறு,நாநூற்று,ஐநூறு,ஐநூற்று,அறுநூறு,அறுநூற்று,எழுநூறு,ஏழுநூற்று,எட்நூறு,எட்நூற்று,தொள்ளாயிரம்,தொள்ளயிரத்து,ஆயிரம்,ஆயிரத்து,இரண்டாயிரம்,இரண்டாயிரத்து,மூன்றாயிரம்,மூன்றாயிரத்து,நான்காயிரம்,நான்காயிரத்து,ஐந்தாயிரம்,ஐந்தாயிரத்து,ஆறாயிரம்,ஆறாயிரத்து,ஏழாயிரம்,எழாயிரத்து,எட்டாயிரம்,எட்டாயிரத்து,ஒன்பதாயிரம்,ஒன்பதாயிரத்து,பத்தாயிரம்,பத்தாயிரத்து,லச்சம்,லச்சத்து,கோடி,கோடியே".split(",");
+	
+	public static String எண்கள்[] = "1,2,3,4,5,6,7,8,9,0".split(",");
+	public static String பூஜ்யம்_அல்லாத_எண்கள்[] = "1,2,3,4,5,6,7,8,9".split(",");
+	
+	public static int அ_ஒலி    = 30;
+	public static int ஆ_ஒலி = 180;
+	public static int இ_ஒலி = 140;
+	public static int ஈ_ஒலி = 170;
+	public static int உ_ஒலி = 170;
+	public static int ஊ_ஒலி = 170;
+	public static int எ_ஒலி = 140;
+	public static int ஏ_ஒலி = 170;
+	public static int ஐ_ஒலி = 170;
+	public static int ஒ_ஒலி = 140;
+	public static int ஓ_ஒலி = 170;
+	public static int ஔ_ஒலி = 170;
+		
+	public static String ங_வரிசை[] = "ங,ஙா,ஙி,ஙீ,ஙு,ஙூ,ஙெ,ஙே,ஙை,ஙொ,ஙோ,ஙௌ".split(",");
+	public static String ஞ_வரிசை[] = "ஞ,ஞா,ஞி,ஞீ,ஞு,ஞூ,ஞெ,ஞே,ஞை,ஞொ,ஞோ,ஞௌ".split(",");
+	public static String ண_வரிசை[] = "ண,ணா,ணி,ணீ,ணு,ணூ,ணெ,ணே,ணை,ணொ,ணோ,ணௌ".split(",");
+	public static String ந_வரிசை[] = "ந,நா,நி,நீ,நு,நூ,நெ,நே,நை,நொ,நோ,நௌ".split(",");
+	public static String ம_வரிசை[] = "ம,மா,மி,மீ,மு,மூ,மெ,மே,மை,மொ,மோ,மௌ".split(",");
+	public static String ய_வரிசை[] = "ய,யா,யி,யீ,யு,யூ,யெ,யே,யை,யொ,யோ,யௌ".split(",");
+	public static String ர_வரிசை[] = "ர,ரா,ரி,ரீ,ரு,ரூ,ரெ,ரே,ரை,ரொ,ரோ,ரௌ".split(",");
+	public static String ல_வரிசை[] = "ல,லா,லி,லீ,லு,லூ,லெ,லே,லை,லொ,லோ,லௌ".split(",");
+	public static String வ_வரிசை[] = "வ,வா,வி,வீ,வு,வூ,வெ,வே,வை,வொ,வோ,வௌ".split(",");
+	public static String ழ_வரிசை[] = "ழ,ழா,ழி,ழீ,ழு,ழூ,ழெ,ழே,ழை,ழொ,ழோ,ழௌ".split(",");
+	public static String ள_வரிசை[] = "ள,ளா,ளி,ளீ,ளு,ளூ,ளெ,ளே,ளை,ளொ,ளோ,ளௌ".split(",");
+	public static String ன_வரிசை[] = "ன,னா,னி,னீ,னு,னூ,னெ,னே,னை,னொ,னோ,னௌ".split(",");
+	public static String ற_வரிசை[] = "ற,றா,றி,றீ,று,றூ,றெ,றே,றை,றொ,றோ,றௌ".split(",");
+	public static String த_வரிசை[] = "த,தா,தி,தீ,து,தூ,தெ,தே,தை,தொ,தோ,தௌ".split(",");
+	public static String ச_வரிசை[] = "ச,சா,சி,சீ,சு,சூ,செ,சே,சை,சொ,சோ,சௌ".split(",");
+	public static String ட_வரிசை[] = "ட,டா,டி,டீ,டு,டூ,டெ,டே,டை,டொ,டோ,டௌ".split(",");
+	public static String க_வரிசை[] = "க,கா,கி,கீ,கு,கூ,கெ,கே,கை,கொ,கோ,கௌ".split(",");
+	public static String ப_வரிசை[] = "ப,பா,பி,பீ,பு,பூ,பெ,பே,பை,பொ,போ,பௌ".split(",");
+	
+	
+	
+	public static int ஜ_வரிசை_குறில்_ஒலி =  200;
+	public static int ஷ_வரிசை_குறில்_ஒலி =  200;
+	public static int ஸ_வரிசை_குறில்_ஒலி =  200;
+	public static int ஹ_வரிசை_குறில்_ஒலி =  200;
+	public static int க்ஷ_வரிசை_குறில்_ஒலி =  200;
+	public static int ஸ்ரீ_வரிசை_குறில்_ஒலி =  200;
+	
+	public static int ஜ_வரிசை_நெடில்_ஒலி = 270;
+	public static int ஷ_வரிசை_நெடில்_ஒலி = 270;
+	public static int ஸ_வரிசை_நெடில்_ஒலி = 270;
+	public static int ஹ_வரிசை_நெடில்_ஒலி = 270;
+	public static int க்ஷ_வரிசை_நெடில்_ஒலி = 270;
+	public static int ஸ்ரீ_வரிசை_நெடில்_ஒலி = 270;
+	
+	public static int க_குறில்	=	5;
+	public static int ங_குறில்	=	10;
+	public static int ச_குறில்	=	20;
+	public static int ஞ_குறில்	=	10;
+	public static int ட_குறில்	=	70;
+	public static int ண_குறில்	=	30;
+	public static int த_குறில்	=	5;
+	public static int ந_குறில்	=	5;
+	public static int ப_குறில்	=	5;
+	public static int ம_குறில்	=	0;
+	public static int ய_குறில்	=	5;
+	public static int ர_குறில்	=	5;
+	public static int ல_குறில்	=	80;
+	public static int வ_குறில்	=	10;
+	public static int ழ_குறில்	=	10;
+	public static int ள_குறில்	=	70;
+	public static int ற_குறில்	=	5;
+	public static int ன_குறில்	=	20;
+	
+	
+	public static int க_நெடில்	=	10;
+	public static int ங_நெடில்	=	10;
+	public static int ச_நெடில்	=	20;
+	public static int ஞ_நெடில்	=	100;
+	public static int ட_நெடில்	=	100;
+	public static int ண_நெடில்	=	50;
+	public static int த_நெடில்	=	10;
+	public static int ந_நெடில்	=	50;
+	public static int ப_நெடில்	=	10;
+	public static int ம_நெடில்	=	50;
+	public static int ய_நெடில்	=	50;
+	public static int ர_நெடில்	=	50;
+	public static int ல_நெடில்	=	50;
+	public static int வ_நெடில்	=	50;
+	public static int ழ_நெடில்	=	50;
+	public static int ள_நெடில்	=	60;
+	public static int ற_நெடில்	=	50;
+	public static int ன_நெடில்	=	50;
+	
+	public static int க	= 210;
+	public static int கா	= 250;
+	public static int கி	= 200;
+	public static int கீ	= 250;
+	public static int கு	= 150;
+	public static int கூ	= 250;
+	public static int கெ	= 150;
+	public static int கே	= 250;
+	public static int கை	= 250;
+	public static int கொ	= 150;
+	public static int கோ	= 250;
+	public static int கௌ	= 250;
+	public static int ங	= 150;
+	public static int ஙா	= 230;
+	public static int ஙி	= 150;
+	public static int ஙீ	= 230;
+	public static int ஙு	= 150;
+	public static int ஙூ	= 230;
+	public static int ஙெ	= 150;
+	public static int ஙே	= 230;
+	public static int ஙை	= 230;
+	public static int ஙொ	= 150;
+	public static int ஙோ	= 230;
+	public static int ஙௌ= 230;
+	public static int ச	= 150;
+	public static int சா	= 230;
+	public static int சி	= 150;
+	public static int சீ	= 230;
+	public static int சு	= 150;
+	public static int சூ	= 230;
+	public static int செ	= 150;
+	public static int சே	= 230;
+	public static int சை	= 230;
+	public static int சொ	= 150;
+	public static int சோ	= 230;
+	public static int சௌ= 230;
+	public static int ஞ	= 220;
+	public static int ஞா	= 250;
+	public static int ஞி	= 220;
+	public static int ஞீ	= 250;
+	public static int ஞு	= 220;
+	public static int ஞூ	= 250;
+	public static int ஞெ	= 220;
+	public static int ஞே	= 250;
+	public static int ஞை	= 250;
+	public static int ஞொ	= 220;
+	public static int ஞோ	= 250;
+	public static int ஞௌ= 250;
+	public static int ட	= 80;
+	public static int டா	= 230;
+	public static int டி	= 200;
+	public static int டீ	= 230;
+	public static int டு	= 200;
+	public static int டூ	= 230;
+	public static int டெ	= 200;
+	public static int டே	= 230;
+	public static int டை	= 230;
+	public static int டொ	= 200;
+	public static int டோ	= 230;
+	public static int டௌ= 230;
+	public static int ண	= 110;
+	public static int ணா	= 230;
+	public static int ணி	= 150;
+	public static int ணீ	= 230;
+	public static int ணு	= 150;
+	public static int ணூ	= 230;
+	public static int ணெ	= 150;
+	public static int ணே	= 230;
+	public static int ணை	= 230;
+	public static int ணொ= 150;
+	public static int ணோ= 230;
+	public static int ணௌ= 230;
+	public static int த	= 150;
+	public static int தா	= 250;
+	public static int தி	= 180;
+	public static int தீ	= 250;
+	public static int து	= 150;
+	public static int தூ	= 250;
+	public static int தெ	= 150;
+	public static int தே	= 250;
+	public static int தை	= 250;
+	public static int தொ	= 150;
+	public static int தோ	= 250;
+	public static int தௌ= 250;
+	public static int ந	= 150;
+	public static int நா	= 230;
+	public static int நி	= 150;
+	public static int நீ	= 230;
+	public static int நு	= 150;
+	public static int நூ	= 230;
+	public static int நெ	= 150;
+	public static int நே	= 230;
+	public static int நை	= 230;
+	public static int நொ	= 150;
+	public static int நோ	= 230;
+	public static int நௌ= 230;
+	public static int ப	= 100;
+	public static int பா	= 200;
+	public static int பி	= 130;
+	public static int பீ	= 200;
+	public static int பு	= 50;
+	public static int பூ	= 200;
+	public static int பெ	= 130;
+	public static int பே	= 200;
+	public static int பை	= 200;
+	public static int பொ	= 50;
+	public static int போ	= 200;
+	public static int பௌ= 200;
+	public static int ம	= 90;
+	public static int மா	= 230;
+	public static int மி	= 150;
+	public static int மீ	= 230;
+	public static int மு	= 120;
+	public static int மூ	= 230;
+	public static int மெ	= 120;
+	public static int மே	= 230;
+	public static int மை	= 230;
+	public static int மொ	= 120;
+	public static int மோ	= 230;
+	public static int மௌ= 230;
+	public static int ய	= 150;
+	public static int யா	= 230;
+	public static int யி	= 150;
+	public static int யீ	= 230;
+	public static int யு	= 150;
+	public static int யூ	= 230;
+	public static int யெ	= 150;
+	public static int யே	= 230;
+	public static int யை	= 230;
+	public static int யொ	= 150;
+	public static int யோ	= 230;
+	public static int யௌ= 230;
+	public static int ர	= 150;
+	public static int ரா	= 230;
+	public static int ரி	= 150;
+	public static int ரீ	= 230;
+	public static int ரு	= 150;
+	public static int ரூ	= 230;
+	public static int ரெ	= 150;
+	public static int ரே	= 230;
+	public static int ரை	= 230;
+	public static int ரொ	= 150;
+	public static int ரோ	= 230;
+	public static int ரௌ= 230;
+	public static int ல	= 150;
+	public static int லா	= 230;
+	public static int லி	= 180;
+	public static int லீ	= 230;
+	public static int லு	= 150;
+	public static int லூ	= 230;
+	public static int லெ	= 150;
+	public static int லே	= 230;
+	public static int லை	= 230;
+	public static int லொ	= 150;
+	public static int லோ	= 230;
+	public static int லௌ= 230;
+	public static int வ	= 170;
+	public static int வா	= 230;
+	public static int வி	= 170;
+	public static int வீ	= 230;
+	public static int வு	= 170;
+	public static int வூ	= 230;
+	public static int வெ	= 170;
+	public static int வே	= 230;
+	public static int வை	= 230;
+	public static int வொ	= 170;
+	public static int வோ	= 230;
+	public static int வௌ= 230;
+	public static int ழ	= 220;
+	public static int ழா	= 260;
+	public static int ழி	= 220;
+	public static int ழீ	= 260;
+	public static int ழு	= 220;
+	public static int ழூ	= 260;
+	public static int ழெ	= 220;
+	public static int ழே	= 260;
+	public static int ழை	= 260;
+	public static int ழொ	= 220;
+	public static int ழோ	= 260;
+	public static int ழௌ= 260;
+	public static int ள	= 150;
+	public static int ளா	= 200;
+	public static int ளி	= 150;
+	public static int ளீ	= 200;
+	public static int ளு	= 150;
+	public static int ளூ	= 200;
+	public static int ளெ	= 150;
+	public static int ளே	= 200;
+	public static int ளை	= 200;
+	public static int ளொ	= 150;
+	public static int ளோ	= 200;
+	public static int ளௌ= 200;
+	public static int ற	= 250;
+	public static int றா	= 250;
+	public static int றி	= 250;
+	public static int றீ	= 250;
+	public static int று	= 250;
+	public static int றூ	= 250;
+	public static int றெ	= 250;
+	public static int றே	= 250;
+	public static int றை	= 250;
+	public static int றொ	= 250;
+	public static int றோ	= 250;
+	public static int றௌ= 250;
+	public static int ன	= 150;
+	public static int னா	= 230;
+	public static int னி	= 250;
+	public static int னீ	= 230;
+	public static int னு	= 150;
+	public static int னூ	= 230;
+	public static int னெ	= 150;
+	public static int னே	= 230;
+	public static int னை	= 230;
+	public static int னொ	= 150;
+	public static int னோ	= 230; 
+	public static int னௌ= 230;
+	
+	
+	public static int ஜ	=  250;
+	public static int ஜா	=  250;
+	public static int ஜி	=  250;
+	public static int ஜீ	=  250;
+	public static int ஜு	=  250;
+	public static int ஜூ	=  250;
+	public static int ஜெ	=  250;
+	public static int ஜே	=  250;
+	public static int ஜை	=  250;
+	public static int ஜொ	=  250;
+	public static int ஜோ	=  250;
+	public static int ஜௌ=  250;
+	public static int ஷ	=  250;
+	public static int ஷா	=  250;
+	public static int ஷி	=  250;
+	public static int ஷீ	=  250;
+	public static int ஷு	=  250;
+	public static int ஷூ	=  250;
+	public static int ஷெ	=  250;
+	public static int ஷே	=  250;
+	public static int ஷை	=  250;
+	public static int ஷொ	=  250;
+	public static int ஷோ	=  250;
+	public static int ஷௌ=  250;
+	public static int ஸ	=  250;
+	public static int ஸா	=  250;
+	public static int ஸி	=  250;
+	public static int ஸீ	=  250;
+	public static int ஸு	=  250;
+	public static int ஸூ	=  250;
+	public static int ஸெ	=  250;
+	public static int ஸே	=  250;
+	public static int ஸை	=  250;
+	public static int ஸொ	=  250;
+	public static int ஸோ	=  250;
+	public static int ஸௌ=  250;
+	public static int ஹ	=  250;
+	public static int ஹா	=  250;
+	public static int ஹி	=  250;
+	public static int ஹீ	=  250;
+	public static int ஹு	=  250;
+	public static int ஹூ	=  250;
+	public static int ஹெ	=  250;
+	public static int ஹே	=  250;
+	public static int ஹை	=  250;
+	public static int ஹொ	=  250;
+	public static int ஹோ	=  250;
+	public static int ஹௌ=  250;
+	public static int க்ஷ	=  250;
+	public static int க்ஷா	=  250;
+	public static int க்ஷி	=  250;
+	public static int க்ஷீ	=  250;
+	public static int க்ஷு	=  250;
+	public static int க்ஷூ	=  250;
+	public static int க்ஷெ	=  250;
+	public static int க்ஷே	=  250;
+	public static int க்ஷை	=  250;
+	public static int க்ஷொ	=  250;
+	public static int க்ஷோ	=  250;
+	public static int க்ஷெள=  250;
+	public static int ஸ்ரீ=  250;
+	
+	public static String sameSound[] = "ண,ணா,ணி,ணீ,ணு,ணூ,ணெ,ணே,ணை,ணொ,ணோ,ணௌ,ந,நா,நி,நீ,நு,நூ,நெ,நே,நை,நொ,நோ,நௌ,ன,னா,னி,னீ,னு,னூ,னெ,னே,னை,னொ,னோ,னௌ,ர,ரா,ரி,ரீ,ரு,ரூ,ரெ,ரே,ரை,ரொ,ரோ,ரௌ,ற,றா,றி,றீ,று,றூ,றெ,றே,றை,றொ,றோ,றௌ,ல,லா,லி,லீ,லு,லூ,லெ,லே,லை,லொ,லோ,லௌ,ள,ளா,ளி,ளீ,ளு,ளூ,ளெ,ளே,ளை,ளொ,ளோ,ளௌ".split(",");
+
+	
+	public static String உயிர்_எழுத்துக்கள்[] = "அ,ஆ,இ,ஈ,உ,ஊ,எ,ஏ,ஐ,ஒ,ஓ,ஔ".split(",");
+	public static String மெய்_எழுத்துக்கள்[] = "ஃ,க்,ங்,ச்,ஞ்,ட்,ண்,த்,ந்,ப்,ம்,ய்,ர்,ல்,வ்,ழ்,ள்,ற்,ன்,ங்,ஞ்,ண்,ந்,ம்,ன்".split(",");
+	public static String உதவி_எழுத்துக்கள்[] = "்,ா,ி,ீ,ு,ூ,ெ,ே,ை,ொ,ோ,ௌ".split(",");
+	public static String வடமொழி_எழுத்துக்கள்[] = "ஜ,ஜா,ஜி,ஜீ,ஜு,ஜூ,ஜெ,ஜே,ஜை,ஜொ,ஜோ,ஜௌ,ஷ,ஷா,ஷி,ஷீ,ஷு,ஷூ,ஷெ,ஷே,ஷை,ஷொ,ஷோ,ஷௌ ,ஸ,ஸா,ஸி,ஸீ,ஸு,ஸூ,ஸெ,ஸே,ஸை,ஸொ,ஸோ,ஸௌ,ஹ,ஹா,ஹி,ஹீ,ஹு,ஹூ,ஹெ,ஹே,ஹை,ஹொ,ஹோ,ஹௌ,க்ஷ,க்ஷா,க்ஷி,க்ஷீ,க்ஷு,க்ஷூ,க்ஷெ,க்ஷே,க்ஷை,க்ஷொ,க்ஷோ,க்ஷெள".split(",");
+	public static String சிறப்பு_எழுத்துக்கள்[] = "_".split(",");
+	public static String உயிர்_மெய்_எழுத்துக்கள்[] = "க,ங,ச,ஞ,ட,ண,த,ந,ப,ம,ய,ர,ல,வ,ழ,ள,ற,ன".split(",");
+	
+	
+	
+	String LOG_FILE_NAME = "/TamilTTS.log";
+	String LOG_FILE_PATH = VOICE_PATH+LOG_FILE_NAME;
+	
+	String FILE_EXTENSION = ".wav";
+	
+	long MAX_WORD_CAPACITY = 800;
+	
+	long FILE_WRITE_BUFFER = 1000;
+	
+	int INITIAL_READING_SPEED = 32;
+	int INITIAL_GAIN = 1;
+}

@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/com/tamil/tts/cluster/ClusterSearch.java=UTF-8
+encoding//src/com/tamil/tts/cluster/FrontClusterSearch.java=UTF-8
+encoding//src/com/tamil/tts/cluster/TrieFrontClusterSearch.java=UTF-8
+encoding//src/com/tamil/tts/constants/TamilTTSConstants.java=UTF-8
+encoding//src/com/tamil/tts/initiate/InitiateSpeech.java=UTF-8
+encoding//src/com/tamil/tts/initiate/SpeakTamizh.java=UTF-8
+encoding//src/com/tamil/tts/utils/TamilTTSUtils.java=UTF-8
