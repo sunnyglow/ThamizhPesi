@@ -19,7 +19,9 @@ To Setup and Run the application perform below steps
 Below is the sample Configuration.
 
         String VOICE_PATH = "D:\\TamilTTSWork\\Documents\\work\\tts_voice\\AppData\\AllTTSVoiceData\\";
+	
 	String TIME_DATA_PATH ="D:\\TamilTTSWork\\Documents\\work\\tts_voice\\AppData\\AllTTSTimeData";
+	
 	String AUDIO_PATH = "D:\\TamilTTSWork\\Documents\\work\\tts_voice\\AppData\\AllTTSVoiceData\\";
 	
 5.  In the same TamilTTSConsstants.java file you should configure OutPut folder path.  Sample configuration is given below.
